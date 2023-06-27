@@ -121,7 +121,6 @@ nav {
 
 .my-skills {
     padding-top: 70px;
-    margin-left: 70px;
     gap: 8.875rem;
 }
 
@@ -169,15 +168,17 @@ div .tonic {
     line-height: 1.5rem;
     padding: 2px 2px;
     gap: 20px;
+    list-style-type: disc;
+    margin-left: 10px;
 }
 
 li .year {
     margin: 10%;
 }
 
-.yr {
+/* .yr {
     display: inline;
-}
+} */
 
 ul {
     list-style: none;
@@ -279,6 +280,7 @@ button {
     font-weight: 500;
     line-height: 1.5rem;
     color: var(--theme-1-neutrals-3, #344563);
+    
 }
 
 .about__myself {
@@ -381,7 +383,7 @@ button {
     margin-left: 180px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
         .container {
             display: flex;
             width: 22.25rem;
